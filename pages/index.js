@@ -1,11 +1,12 @@
 import React from 'react'
+import Header1 from './components/Header1'
 
-const Index = () => {
+const Home = () => {
   return (
     <div>
-      Hello
+      <Header1/>
     </div>
   )
 }
 
-export default Index
+export default Home
