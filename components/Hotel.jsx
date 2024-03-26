@@ -49,24 +49,24 @@ const Hotel = () => {
                     />
                 </div>
 
-                <div className=" ml-20">
+                <div className=" mx-10">
                     {/* Title description facilities */}
-                    <h2 className="font-bold text-2xl line-clamp-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inc</h2>
+                    <h2 className="font-bold text-xl line-clamp-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inc</h2>
                     <p className=" text-justify my-3 text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                    <div className=" text-xl my-3">
-                        <span className=" font-bold">Facilities : </span>
-                        <span className=" font-bold">Lorem ipsum, dolor sit, amet, consectetur ,adipiscing elit, sed do ,eiusmod tempor . </span>
+                    <div className="my-3">
+                        <span className=" font-bold text-xl">Facilities : </span>
+                        <span className=" font-bold text-lg" >Lorem ipsum, dolor sit, amet, consectetur ,adipiscing elit, sed do ,eiusmod tempor . </span>
 
                     </div>
 
 
                     <div className=" flex items-center">
-                        <button className=" w-40 h-12 rounded-lg bg-red-400 text-xl text-white font-bold">
+                        <button className=" w-40 h-12 rounded-lg bg-red-400 text-lg text-white font-bold">
                             Price : &#8377; 4000
                         </button>
                         <Link
                             href={`/hotels/2`}
-                            className="text-xl font-bold text-red-600 ml-5"
+                            className="text-lg font-bold text-red-500 ml-5"
                         >
                             See Details
                         </Link>
