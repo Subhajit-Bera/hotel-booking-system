@@ -27,11 +27,10 @@ const Header1 = () => {
                         className=" w-10 h-10 rounded-full mr-2"
                     />
                     <Link href={"/login"}>
-                    <h3 className="font-bold">Login / Signup</h3>
+                        <h3 className="font-bold">Login / Signup</h3>
                     </Link>
-                    
-                </div>
 
+                </div>
 
             </div>
 

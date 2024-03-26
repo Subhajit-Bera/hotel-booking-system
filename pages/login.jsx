@@ -15,7 +15,7 @@ const login = () => {
                 </div>
                 <div>
                     <p className=" font-bold text-5xl text-justify  text-white">
-                        There’s a smarter way to StayEase
+                        There a smarter way to StayEase
                     </p>
                     <p className=" text-2xl mt-5 text-justify text-white">
                         Sign up with your phone number and get exclusive access to
