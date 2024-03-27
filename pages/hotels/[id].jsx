@@ -2,7 +2,7 @@ import Image from "next/image"
 const SingleHotel = () => {
     return (
         <>
-            <div className="w-7/12 mx-auto my-10 ">
+            <div className="w-7/12 mx-auto my-2">
                 <Image
                     src={"/bg.jpg"}
                     alt="hotel"
